@@ -55,6 +55,7 @@ h6 {
 
 div.card {
   margin: 10px;
+  margin-left: 0px !important; 
   background-color: #eaedf3;
   min-width: 250px;
   min-height: 300px;

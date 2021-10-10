@@ -18,11 +18,10 @@ export default function Home() {
                     <div className="col-lg d-flex align-items-center justify-content-center">
                         <div>
                             <h3 className="mb-3">Nutchanon Chantrasup</h3>
-                            <p>Computer Engineering Student, Kasetsart Univerdity, Bangkok.</p>
+                            <p>Computer Engineering Student, Kasetsart University, Bangkok.</p>
                             <Button>About me</Button>
                         </div>
                     </div>
-
                 </div>
             </div>
             <ScreenWidth style={{ background: lightBackground, minHeight: "500px", padding: "70px 0" }}>
@@ -35,9 +34,9 @@ export default function Home() {
                         <div className="col-lg-8">
                             <h4>Learn more about me</h4>
                             <div className="d-flex py-5 overflow-auto">
-                                <Card path="" title="Skills" icon={<AiOutlineLaptop size="50px" color={hColor}/>}/>
-                                <Card path="" title="Education" icon={<GiBookshelf size="50px" color={hColor}/>}/>
-                                <Card path="" title="Projects" icon={<AiFillCode size="50px" color={hColor}/>}/>
+                                <Card path="" title="Skills" icon={<AiOutlineLaptop size="50px" color={hColor}/>} />
+                                <Card path="" title="Education" icon={<GiBookshelf size="50px" color={hColor}/>} />
+                                <Card path="/projects" title="Projects" icon={<AiFillCode size="50px" color={hColor}/>}  />
                             </div>
                             
                         </div>
