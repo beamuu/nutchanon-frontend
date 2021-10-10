@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/Helvetica Neue/HelveticaNeue-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/Helvetica Neue/HelveticaNeue.otf");
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/Helvetica Neue/HelveticaNeue-Bold.otf");
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: "Poppins";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+p, b, span {
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: #212a47;
+  font-size: 340%;
+}
+h2 {
+  color: #212a47;
+  font-size: 270%;
+}
+h3 {
+  color: #212a47;
+  font-size: 210%;
+}
+h4 {
+  color: #212a47;
+  font-size: 180%;
+}
+h5 {
+  color: #212a47;
+  font-size: 150%;
+}
+h6 {
+  color: #212a47;
+  font-size: 125%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+div.card {
+  margin: 10px;
+  background-color: #eaedf3;
+  min-width: 250px;
+  min-height: 300px;
+  max-width: 250px;
+  max-height: 300px;
+  transition: 300ms ease;
+  display: flex !important;
+  align-items: end !important;
+  border: none;
+  flex-direction: row;
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+div.card:hover {
+  background-color: #0F62FE;
+}
+
+div.card:hover div * {
+  color: #fff !important;    
+}
+.n {
+  display: none;
+}
+div.card:hover div p.n {
+  display: block;
 }
