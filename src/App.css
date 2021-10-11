@@ -23,64 +23,77 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 }
-p, b, span {
+p, span, a, li {
   font-weight: 500;
+  color: #465369;
+  margin: 0;
+}
+b {
+    font-weight: 700;
+    color: #465369; 
 }
 
 h1 {
-  color: #212a47;
+  color: #102f61;
   font-size: 340%;
 }
 h2 {
-  color: #212a47;
+  color: #102f61;
   font-size: 270%;
 }
 h3 {
-  color: #212a47;
+  color: #102f61;
   font-size: 210%;
 }
 h4 {
-  color: #212a47;
+  color: #102f61;
   font-size: 180%;
 }
 h5 {
-  color: #212a47;
+  color: #102f61;
   font-size: 150%;
 }
 h6 {
-  color: #212a47;
-  font-size: 125%;
+  color: #102f61;
+  font-size: 110%;
 }
 
 
 div.card {
-  margin: 10px;
-  margin-left: 0px !important; 
-  background-color: #eaedf3;
-  min-width: 250px;
-  min-height: 300px;
-  max-width: 250px;
-  max-height: 300px;
-  transition: 300ms ease;
-  display: flex !important;
-  align-items: end !important;
-  border: none;
-  flex-direction: row;
-  padding: 30px;
-  cursor: pointer;
-  border-radius: 0px;
+    margin: 10px;
+    margin-left: 0px !important; 
+    background-color: #ffffff;
+    min-width: 250px;
+    min-height: 300px;
+    max-width: 250px;
+    max-height: 300px;
+    transition: 300ms ease;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 0px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.08);
+}
+div.card > p {
+    font-size: 16px;
 }
 
 div.card:hover {
-  background-color: #0F62FE;
+    transform: translateY(-10px);
+    background-color: #0F62FE;
 }
 
-div.card:hover div * {
-  color: #fff !important;    
+div.card:hover div *, div.card:hover .n {
+    color: #fff !important;    
 }
 .n {
-  display: none;
+    display: none;
+
 }
-div.card:hover div p.n {
-  display: block;
+div.card:hover p.n {
+    display: block;
 }
+

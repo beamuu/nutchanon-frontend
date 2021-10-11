@@ -1,35 +1,56 @@
 import Card from "../../components/Card";
 import Navbar from "../../components/Navbar";
 import { FaBitcoin, MdSwapVerticalCircle } from "react-icons/all";
-import { hColor } from "../../colors";
+import { dimmedMainColor, hColor, lightBackground, mainColor } from "../../colors";
+import ScreenWidth from "../../components/ScreenWidth";
+import Contents from "./Contents";
+import Topic from "./Topic";
 
 export default function ProjectsPage() {
     return (
         <>
+
             <Navbar />
-            <div className="container my-5 py-5">
-                <h3 className="mb-5">Projects</h3>
-                <div className="d-flex flex-wrap">
-                    <Card 
-                        path=""
-                        title="Swap"
-                        description="Trade tokens in an instant"
-                        icon={<MdSwapVerticalCircle size="50px" color={hColor} />}                        
-                    />
-                    <Card 
-                        path=""
-                        title="Crypto prices"
-                        description="Today cryptocurrency prices"
-                        icon={<FaBitcoin size="50px" color={hColor} />}                        
-                    />
-                    <Card 
-                        path=""
-                        title="Katrade"
-                        description="Trade your items"
-                        icon={<MdSwapVerticalCircle size="50px" color={hColor} />}                        
-                    />
+            <ScreenWidth style={{ backgroundColor: lightBackground }}>
+                <div className="container mb-5 py-5">
+                    <h4 className="mb-5">My Projects</h4>
+                    <div className="d-flex flex-wrap">
+                        <Card
+                            path=""
+                            title="Swap"
+                            icon={<MdSwapVerticalCircle size="50px" color={dimmedMainColor} />}
+                            description="Trade tokens in an instant"
+                        />
+                        <Card
+                            path=""
+                            title="Cryptoprices"
+                            icon={<FaBitcoin size="50px" color={dimmedMainColor} />}
+                            description="Today's cryptocurrency prices"
+                        />
+                        <Card
+                            path=""
+                            title="Katrade"
+                            icon={<MdSwapVerticalCircle size="50px" color={dimmedMainColor} />}
+                            description="Trade your items with others"
+                        />
+                    </div>
+                </div>
+            </ScreenWidth>
+            <div className="container">
+                <div className="row m-0">
+                    <div className="col-2 px-5">
+                        <h6>Projects</h6>
+                        <hr />
+                        <Topic>Swap</Topic>
+                        <Topic>Cryptoprices</Topic>
+                        <Topic>Katrade</Topic>
+                    </div>
+                    <div className="col-10">
+                        <Contents />
+                    </div>
                 </div>
             </div>
+
         </>
     )
 }

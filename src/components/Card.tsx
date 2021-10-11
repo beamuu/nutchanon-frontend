@@ -12,16 +12,12 @@ export default function Card({ title, description, path, icon }: ICard) {
     const history = useHistory();
     return (
         <div className="card" onClick={() => history.push(path)}>
-            <div style={{ maxWidth: "100%" }}>
-                <div className="my-4">
-                    {icon}
-                </div>
-                <h5>{title}</h5>
-
-                <p className="text-truncate d-block" style={{ color: color }}>{description}</p>
-
-                <p className="n my-3">Discover More {">"}</p>
+            <div>
+                {icon}
+                <h6 className="my-4 ">{title}</h6>
+                <p style={{ color: "#798991", fontSize: "14px" }}>{description}</p>
             </div>
+            <p className="n discover">Discover More {">"}</p>
         </div>
     )
 }

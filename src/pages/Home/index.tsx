@@ -32,11 +32,25 @@ export default function Home() {
                             <img src="https://mystickermania.com/cdn/stickers/memes/sticker_2110-512x512.png"width="300px"/>
                         </div>
                         <div className="col-lg-8">
-                            <h4>Learn more about me</h4>
+                            <h4>Find the perfect contents about me</h4>
                             <div className="d-flex py-5 overflow-auto">
-                                <Card path="" title="Skills" icon={<AiOutlineLaptop size="50px" color={hColor}/>} />
-                                <Card path="" title="Education" icon={<GiBookshelf size="50px" color={hColor}/>} />
-                                <Card path="/projects" title="Projects" icon={<AiFillCode size="50px" color={hColor}/>}  />
+                                <Card 
+                                    path="" 
+                                    title="Skills" 
+                                    icon={<AiOutlineLaptop size="50px" color={hColor}/>} 
+                                    description="Blockchain, Smart Contracts, Web development and more"
+                                    />
+                                <Card 
+                                    path="" 
+                                    title="Education" 
+                                    icon={<GiBookshelf size="50px" color={hColor}/>} 
+                                    />
+                                <Card 
+                                    path="/projects" 
+                                    title="Projects" 
+                                    icon={<AiFillCode size="50px" color={hColor}/>} 
+                                    description="My past project includes both private and educational projects." 
+                                    />
                             </div>
                             
                         </div>
