@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./pages/Home";
 import ProjectsPage from "./pages/Projects";
 import Resume from "./pages/Resume";
+import SkillsPage from "./pages/Skills";
 
 function App() {
     return (
@@ -10,6 +11,12 @@ function App() {
             <Switch>
                 <Route exact path="/resume">
                     <Resume />
+                </Route>
+                <Route exact path="/education">
+                    <Resume />
+                </Route>
+                <Route exact path="/skills">
+                    <SkillsPage />
                 </Route>
                 <Route exact path="/projects">
                     <ProjectsPage />

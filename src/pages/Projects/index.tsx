@@ -38,14 +38,14 @@ export default function ProjectsPage() {
             </ScreenWidth>
             <div className="container">
                 <div className="row m-0">
-                    <div className="col-2 px-5">
+                    <div className="col-lg-3 px-5">
                         <h6>Projects</h6>
                         <hr />
                         <Topic>Swap</Topic>
                         <Topic>Cryptoprices</Topic>
                         <Topic>Katrade</Topic>
                     </div>
-                    <div className="col-10">
+                    <div className="col-lg-9 content-border">
                         <Contents />
                     </div>
                 </div>

@@ -4,14 +4,15 @@ import { color } from "../colors";
 interface ICard {
     title?: string
     description?: string
-    path: string
+    path?: string
     icon?: any
+    onClick?: () => void
 }
 
-export default function Card({ title, description, path, icon }: ICard) {
+export default function Card({ title, description, path, icon, onClick }: ICard) {
     const history = useHistory();
     return (
-        <div className="card" onClick={() => history.push(path)}>
+        <div className="card" onClick={onClick ? onClick : path ? () => history.push(path) : () => {}}>
             <div>
                 {icon}
                 <h6 className="my-4 ">{title}</h6>

@@ -15,11 +15,11 @@ const Menu = styled.p`
 export default function Navbar() {
     const history = useHistory();
     return (
-        <div className="container d-flex align-items-center justify-content-between py-3">
+        <div className="container d-flex align-items-center justify-content-between py-3 navbar">
             <div onClick={() => history.push("/")} style={{ cursor: "pointer"}}>
                 <h5 style={{ color: mainColor}}><img src={brand} height="26px" className="me-2"/>nutchanon</h5>
             </div>
-            <div className="d-flex">
+            <div className="d-flex navbar-menu">
                 <Menu onClick={() => history.push("/resume")}>Resume</Menu>
                 <Menu>CV</Menu>
                 <Menu>Github</Menu>

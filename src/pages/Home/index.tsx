@@ -5,6 +5,7 @@ import ScreenWidth from "../../components/ScreenWidth";
 import { hColor, iconColor, lightBackground, mainColor } from "../../colors";
 import { AiFillGithub, AiFillFacebook, AiOutlineInstagram, AiFillLinkedin, AiOutlineLaptop, GiBookshelf, AiFillCode, SiGmail, AiFillPhone } from "react-icons/all";
 import Card from "../../components/Card";
+import Footer from "../../components/Footer";
 
 export default function Home() {
     return (
@@ -32,10 +33,10 @@ export default function Home() {
                             <img src="https://mystickermania.com/cdn/stickers/memes/sticker_2110-512x512.png"width="300px"/>
                         </div>
                         <div className="col-lg-8">
-                            <h4>Find the perfect contents about me</h4>
+                            <h4>Find the perfect topics about me</h4>
                             <div className="d-flex py-5 overflow-auto">
                                 <Card 
-                                    path="" 
+                                    path="/skills" 
                                     title="Skills" 
                                     icon={<AiOutlineLaptop size="50px" color={hColor}/>} 
                                     description="Blockchain, Smart Contracts, Web development and more"
@@ -57,17 +58,7 @@ export default function Home() {
                     </div>
                 </div>
             </ScreenWidth>
-            <div className="d-flex justify-content-center my-5">
-                <AiFillGithub className="mx-3" size="30px" color={hColor} />
-                <AiFillFacebook className="mx-3" size="30px" color={hColor} />
-                <AiOutlineInstagram className="mx-3" size="30px" color={hColor} />
-                <AiFillLinkedin className="mx-3" size="30px" color={hColor} />
-                <a 
-                    href="https://mail.google.com/mail/u/0/#inbox?compose=VpCqJRxblKSQJrSfvSvLpRhxdKTqgFcPwknmGqFSPLpzXQhqSpckhnqdRHMpBpZKJhJbSLg"
-                    target="_blank"
-                    ><SiGmail className="mx-3" size="30px" color={hColor} /></a>
-                <AiFillPhone className="mx-3" size="30px" color={hColor} />
-            </div>
+            <Footer />
         </>
     )
 }

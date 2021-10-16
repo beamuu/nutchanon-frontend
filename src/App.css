@@ -68,7 +68,7 @@ div.card {
     max-width: 250px;
     max-height: 300px;
     transition: 300ms ease;
-    border: none;
+    border: 1px solid rgb(235, 235, 235);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -96,4 +96,23 @@ div.card:hover div *, div.card:hover .n {
 div.card:hover p.n {
     display: block;
 }
+.pointer {
+    cursor: pointer;
+}
+.sticky {
+    position: sticky !important;
+    top: 0 !important;
+}
+.content-border {
+    border: 4px solid #0F62FE;
+    border-width: 8px 0 0 0;
+}
 
+@media screen and (max-width: 500px) {
+    .navbar {
+        justify-content: flex-start;
+    }
+    .navbar-menu {
+        display: none !important;
+    }
+}
