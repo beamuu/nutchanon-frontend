@@ -102,7 +102,7 @@ export default function SkillContents({ scrollTo }: ISkillContents) {
                 </div>
             </div>
 
-            <div className="my-5" id="skills-programming-language">
+            <div className="my-5" id="skills-database">
                 <h4>Datbase System</h4>
 
                 <div className="my-5">
@@ -118,7 +118,7 @@ export default function SkillContents({ scrollTo }: ISkillContents) {
                 </div>
             </div>
 
-            <div className="my-5" id="skills-sdks">
+            <div className="my-5" id="skills-prog">
                 <h4>Programming Languages</h4>
 
                 <div className="my-5">

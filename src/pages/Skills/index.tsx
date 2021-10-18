@@ -38,9 +38,9 @@ export default function SkillsPage() {
                             <Topic onClick={() => setView("skills-blockchain")}>Blockchain</Topic>
                             <Topic onClick={() => setView("skills-frontend")}>Frontend</Topic>
                             <Topic onClick={() => setView("skills-backend")}>Backend</Topic>
-                            <Topic>Database System</Topic>
-                            <Topic>Programming Languages</Topic>
-                            <Topic>Other SDKs</Topic>
+                            <Topic onClick={() => setView("skills-database")}>Database System</Topic>
+                            <Topic onClick={() => setView("skills-prog")}>Programming Languages</Topic>
+                            <Topic onClick={() => setView("skills-sdks")}>Other SDKs</Topic>
 
                             <h6 className="mt-5">Communication</h6>
                             <hr />

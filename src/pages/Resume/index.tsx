@@ -27,7 +27,7 @@ export default function Resume() {
                 <Field topic="Education">
                     <h6>Kasetsart University, Bangkok Thailand</h6>
                     <li>Bachelor of Engineering in Computer Engineering</li>
-                    <li>GPAX: 2.84/4.00 <b>(from Academic year 2019 - 2020)</b></li>
+                    <li>GPAX: 2.84/4.00 <b>(from academic year 2019 - 2020)</b></li>
                     <li>Relevant Coursework: Software Engineering, Abstract Data Types and Problem Solving, Database System</li>
                 </Field>
                 <Field topic="Skills">
@@ -39,15 +39,45 @@ export default function Resume() {
                 <Field topic="Technical Projects">
                     <div className="mb-3">
                         <h6>Swap</h6>
-                        <li>Decentralized Exchange on Binance Smart Chain Testnet</li>
-                        <li>Using React for building interface to interact with smart contracts.</li>
+                        <li>A Decentralized Exchange on Binance Smart Chain Testnet.</li>
+                        <li>Smart contracts are clonned from Pancakeswap.</li>
+                        <li>Create new ERC20 (BEP20) Tokens for trading inside this DEX.</li>
+                        <li>All ERC20 (BEP20) Tokens was created by using OpenZeppelin.</li>
+                        <li>Use React for building interface to interact with smart contracts.</li>
+                        <li>Responsibility: all</li>
+
                     </div>
 
-                    <h6>Cryptoprices</h6>
-                    <h6>Katrade</h6>
+                    <div className="mb-3">
+                        <h6>Medproject</h6>
+                        <li>The implementation of blockchain to the medical technologies.</li>
+                        <li>This project runs on Binance Smart Chain.</li>
+                        <li>Store the medical records on the blockchain which can access from anywhere on earth.</li>
+                        <li>Medproject's smart contracts can create a hospital contract that let their patients to interact with.</li>
+                        <li>Patients can create a profile on the hospital's contract and store their medical records which will be added by the hospital.</li>
+                        <li>Privacy is very important. You can set who can access to each records.</li>
+                        <li>Using React for building interface to interact with smart contracts.</li>
+                        <li>Responsibility: all</li>
+                    </div>
+
+                    <div className="mb-3">
+                        <h6>Cryptoprices</h6>
+                        <li>A website for reporting today's cryptocurrency prices.</li>
+                        <li>Cryptocurrency prices are taken from Bitkub API.</li>
+                        <li>Use React for building interfaces.</li>
+                        <li>Responsibility: all</li>
+                    </div>
+
+                    <div className="mb-3">
+                        <h6>Katrade</h6>
+                        <li>Items trading platform for Kasetsart Unversity students</li>
+                        <li>Trading platform with a matching system to  match the exact item with its preferred requirements</li>
+                        <li>Using React for building interfaces</li>
+                        <li>Responsibility: frontend development</li>
+                    </div>
                 </Field>
                 <div className="my-5 text-center">
-                    <p>Last Updated: 11 Oct 2021</p>
+                    <p>Last Updated: 16 Oct 2021</p>
                 </div>
             </div>
 

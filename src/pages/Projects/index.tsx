@@ -23,6 +23,12 @@ export default function ProjectsPage() {
                         />
                         <Card
                             path=""
+                            title="Medproject"
+                            icon={<MdSwapVerticalCircle size="50px" color={dimmedMainColor} />}
+                            description="Blockchain implementations on medical technologies"
+                        />
+                        <Card
+                            path=""
                             title="Cryptoprices"
                             icon={<FaBitcoin size="50px" color={dimmedMainColor} />}
                             description="Today's cryptocurrency prices"
@@ -33,6 +39,7 @@ export default function ProjectsPage() {
                             icon={<MdSwapVerticalCircle size="50px" color={dimmedMainColor} />}
                             description="Trade your items with others"
                         />
+                        
                     </div>
                 </div>
             </ScreenWidth>
@@ -42,10 +49,11 @@ export default function ProjectsPage() {
                         <h6>Projects</h6>
                         <hr />
                         <Topic>Swap</Topic>
+                        <Topic>Medprojects</Topic>
                         <Topic>Cryptoprices</Topic>
                         <Topic>Katrade</Topic>
                     </div>
-                    <div className="col-lg-9 content-border">
+                    <div className="col-lg-9 pt-5 content-border">
                         <Contents />
                     </div>
                 </div>
