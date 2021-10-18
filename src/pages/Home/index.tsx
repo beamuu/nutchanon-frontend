@@ -42,9 +42,10 @@ export default function Home() {
                                     description="Blockchain, Smart Contracts, Web development and more"
                                     />
                                 <Card 
-                                    path="" 
+                                    path="/education" 
                                     title="Education" 
                                     icon={<GiBookshelf size="50px" color={hColor}/>} 
+                                    description=""
                                     />
                                 <Card 
                                     path="/projects" 

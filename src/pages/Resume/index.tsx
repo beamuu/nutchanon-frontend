@@ -3,11 +3,14 @@ import Navbar from "../../components/Navbar"
 import ScreenWidth from "../../components/ScreenWidth"
 import Field from "./Field"
 import resumebg from "../../images/resumebg.png";
+import { Helmet } from "react-helmet";
 export default function Resume() {
     return (
         <>
             <Navbar />
-
+            <Helmet>
+                <title>Resume</title>
+            </Helmet>
             <ScreenWidth
                 className="d-flex align-items-center"
                 style={{
