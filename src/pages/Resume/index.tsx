@@ -30,58 +30,59 @@ export default function Resume() {
                 <Field topic="Education">
                     <h6>Kasetsart University, Bangkok Thailand</h6>
                     <li>Bachelor of Engineering in Computer Engineering</li>
-                    <li>GPAX: 2.84/4.00 <b>(from academic year 2019 - 2020)</b></li>
-                    <li>Relevant Coursework: Software Engineering, Abstract Data Types and Problem Solving, Database System</li>
-                </Field>
-                <Field topic="Skills">
-                    <li><b>Blockchain Development</b>: Solidity, web3js, JavaScript</li>
-                    <li><b>Web Technologies</b>: ReactJS, NextJS, HTML, CSS, ExpressJS</li>
-                    <li><b>Other programming languages</b>: Typescript, NodeJS, Go, Python, C, C++</li>
-                    <li><b>Database</b>: Firebase, MongoDB</li>
+                    <li><b>Relevant courses: </b>Software Engineering, Data Structures & Algorithms, Database Systems, Computer System Laboratory, Computer Architectures, and Operating System.</li>
                 </Field>
                 <Field topic="Technical Projects">
                     <div className="mb-3">
-                        <h6>Swap</h6>
-                        <li>A Decentralized Exchange on Binance Smart Chain Testnet.</li>
-                        <li>Smart contracts are clonned from Pancakeswap.</li>
-                        <li>Create new ERC20 (BEP20) Tokens for trading inside this DEX.</li>
-                        <li>All ERC20 (BEP20) Tokens was created by using OpenZeppelin.</li>
-                        <li>Use React for building interface to interact with smart contracts.</li>
-                        <li>Responsibility: all</li>
+                        <h6>Swap pool</h6>
+                        <li>Implemented a Decentralized Exchange on Binance Smart Chain Testnet that allows users to trade tokens.</li>
+                        <li>Developed smart contracts cloned from Pancakeswap by using Solidity and Truffle to create a trading simulation that users can buy ERC20 tokens, my own crypto tokens.</li>
+                        <li><b>Utilizations: </b>Solidity, Web3js, Truffle, JavaScript, ReactJS and Styled-components.</li>
 
                     </div>
 
                     <div className="mb-3">
                         <h6>Medproject</h6>
-                        <li>The implementation of blockchain to the medical technologies.</li>
-                        <li>This project runs on Binance Smart Chain.</li>
-                        <li>Store the medical records on the blockchain which can access from anywhere on earth.</li>
-                        <li>Medproject's smart contracts can create a hospital contract that let their patients to interact with.</li>
-                        <li>Patients can create a profile on the hospital's contract and store their medical records which will be added by the hospital.</li>
-                        <li>Privacy is very important. You can set who can access to each records.</li>
-                        <li>Using React for building interface to interact with smart contracts.</li>
-                        <li>Responsibility: all</li>
+                        <li>Developed smart contracts using Solidity that allow users to store medical records in order to provide users and medical providers capabilities to enrich data.</li>
+                        <li><b>Utilizations: Solidity, Web3js, Truffle, JavaScript, ReactJS, Material UI and Styled-components.</b></li>
                     </div>
 
                     <div className="mb-3">
                         <h6>Cryptoprices</h6>
-                        <li>A website for reporting today's cryptocurrency prices.</li>
-                        <li>Cryptocurrency prices are taken from Bitkub API.</li>
-                        <li>Use React for building interfaces.</li>
-                        <li>Responsibility: all</li>
+                        <li>Designed and developed a website that displays cryptocurrency rates of 45 tokens from a Bitkub API.</li>
+                        <li>Built a Discord chatbot and a notification service that allows users to set up a token target price then automatically triggers chat messages when the price is reached.</li>
+                        <li><b>Utilizations: </b>HTML, CSS, Bootstrap, ReactJS and Styled-components.</li>
                     </div>
 
                     <div className="mb-3">
                         <h6>Katrade</h6>
-                        <li>Items trading platform for Kasetsart Unversity students</li>
-                        <li>Trading platform with a matching system to  match the exact item with its preferred requirements</li>
-                        <li>Using React for building interfaces</li>
-                        <li>Responsibility: frontend development</li>
+                        <li>Designed and developed user interfaces of a trading platform that allows Kasetsart students to trade items in order to reduce waste and create a community that promotes environmental sustainability.</li>
+                        <li><b>Utilizations: </b>HTML, CSS, Bootstrap, ReactJS, Styled-components, Axios, Firebase and Material UI.</li>
                     </div>
                 </Field>
+                <Field topic="Leadership Experiences">
+                    <div className="mb-3">
+                        <h6>Nutchanon Blog</h6>
+                        <li>Wrote Blockchain content to share knowledge in blockchain technology and digital currencies such as Blockchain 101 and Smart Contracts development.</li>
+                    </div>
+                    <div className="mb-3">
+                        <h6>Let Me Tired Camp </h6>
+                        <li>Led a team of 3 people to design artworks and posters for a Freshmen Orientation in the Department of Computer Engineering at Kasetsart University, for over 50 high school students.</li>
+                    </div>
+
+                </Field>
+                <Field topic="Skills">
+                    <li><b>Blockchain Development</b>: Solidity, Web3js, JavaScript, Truffle, and Ganache.</li>
+                    <li><b>Web Technologies</b>: ReactJS, NextJS, HTML, CSS, and ExpressJS.</li>
+                    <li><b>Other programming languages</b>: Typescript, NodeJS, Go, Python, C, and C++.</li>
+                    <li><b>Database</b>: Firestore and MongoDB.</li>
+                    <li><b>SDKs</b>:  Firebase, LINE APIs, and DiscordJS.</li>
+                </Field>
+
                 <div className="my-5 text-center">
-                    <p>Last Updated: 16 Oct 2021</p>
+                    <p>Last Updated: 23 Oct 2021</p>
                 </div>
+
             </div>
 
         </>

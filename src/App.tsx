@@ -1,5 +1,6 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import './App.css';
+import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 import Home from "./pages/Home";
 import ProjectsPage from "./pages/Projects";
@@ -10,6 +11,9 @@ function App() {
     return (
         <BrowserRouter>
             <Switch>
+                <Route exact path="/contact">
+                    <Contact />
+                </Route>
                 <Route exact path="/resume">
                     <Resume />
                 </Route>

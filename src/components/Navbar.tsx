@@ -21,9 +21,9 @@ export default function Navbar() {
             </div>
             <div className="d-flex navbar-menu">
                 <Menu onClick={() => history.push("/resume")}>Resume</Menu>
-                <Menu>CV</Menu>
-                <Menu>Github</Menu>
-                <Menu>Contact</Menu>         
+                {/* <Menu>CV</Menu> */}
+                <a href="https://github.com/nutchanonc" target="_blank" className="text-decoration-none"><Menu>Github</Menu></a>
+                <Menu onClick={() => history.push("/contact")}>Contact</Menu>         
             </div>
         </div>
     )

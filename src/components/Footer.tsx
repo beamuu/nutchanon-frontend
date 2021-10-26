@@ -5,16 +5,27 @@ import { hColor } from "../colors";
 export default function Footer() {
     return (
         <div className="d-flex justify-content-center my-5">
-                <AiFillGithub className="mx-3" size="30px" color={hColor} />
+                <a 
+                    href="https://github.com/nutchanonc"
+                    target="_blank"
+                    ><AiFillGithub className="mx-3" size="30px" color={hColor} /></a>
 
 
-                <AiFillFacebook className="mx-3" size="30px" color={hColor} />
+                <a
+                    href="https://www.facebook.com/beammnc/"
+                    target="_blank"
+                    ><AiFillFacebook className="mx-3" size="30px" color={hColor} /></a>
 
 
-                <AiOutlineInstagram className="mx-3" size="30px" color={hColor} />
+                <a
+                    href="https://www.instagram.com/beamuuuu/"
+                    target="_blank"
+                ><AiOutlineInstagram className="mx-3" size="30px" color={hColor} /></a>
 
-
-                <AiFillLinkedin className="mx-3" size="30px" color={hColor} />
+                <a
+                    href="https://www.linkedin.com/in/nutchanonc/"
+                    target="_blank"
+                ><AiFillLinkedin className="mx-3" size="30px" color={hColor} /></a>
 
 
                 <a 
